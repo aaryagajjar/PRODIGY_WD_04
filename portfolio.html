@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">Portfolio</div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects"> My Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 style="padding-bottom: 0; margin-bottom: 0;">Hello, I'm</h1>
+                <h1 style="padding-top: 0;"> <span class="highlight">Aarya K Gajjar</span></h1>
+                <p class="subtitle">Full-Stack Web Developer</p>
+                <p class="summary">I focus on building responsive, efficient, and user-friendly web applications using modern tools and frameworks. My goal is to craft seamless digital experiences that combine clean design with powerful functionality.</p>
+                <div class="skills-preview">
+                    <span class="skill-tag">C Language</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="professional_photo.jpg" alt="Professional Photo" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2 style="color: #ecf0f1;">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m Aarya Gajjar, a dedicated and detail-oriented Web Developer with a strong interest in creating responsive, user-friendly, and visually appealing websites. I enjoy transforming ideas into functional digital experiences through clean and efficient code.</p>
+                    <p>My journey began with a curiosity for how websites work, which led me to dive deep into web development. I enjoy the challenge of turning complex problems into simple, beautiful designs.</p>
+                    <div class="personal-info">
+                        <h3 >Education</h3>
+                        <ul>
+                            <li><strong class ="school">Undergraduate in Computer Engineering</strong> - LDRP , Gandhinagar</li>
+                    
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src=aboutme.jpg alt="About Me Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 style="color:#f5a623;">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src=project1.png alt="Project 1">
+                    <h3>Responsive Website</h3>
+                    <p>A full-featured online store built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src=stopwatch.png alt="Project 2">
+                    <h3>Stopwatch App</h3>
+                    <p>A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>SCSS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src=tictac.png alt="Project 3">
+                    <h3>Tic Tac Toe Game</h3>
+                    <p>An interactive weather dashboard that displays current conditions and forecasts for multiple locations with beautiful data visualizations.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Chart.js</span>
+                        <span>API Integration</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 style="color: #50e3c2;">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> aaryakgajjar@gmail.com</p>
+                        <p><strong>Phone:</strong> +91 9429373875</p>
+                        <p><strong>Location:</strong> Ahmedabad, India</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/aarya-gajjar-588545337" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/aaryagajjar" class="social-link">GitHub</a>
+                        
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
